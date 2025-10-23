@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   // URL of your DEPLOYED backend API
-  const API_URL = 'https://green-pulse-backend-seven.vercel.app/';
+  const API_URL = 'https://green-pulse-backend-seven.vercel.app/sensorData';
 
   useEffect(() => {
     const fetchData = async () => {
